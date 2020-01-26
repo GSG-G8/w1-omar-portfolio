@@ -52,7 +52,6 @@ for (let item of document.getElementsByClassName("scroll-down")) {
 viewImage = document.getElementById("view-img");
 for (let item of document.getElementsByClassName("btn-img")) {
     item.onclick = function() {
-        
         viewImage.style.backgroundImage = this.style.backgroundImage;
 
         for (let span of document.getElementsByClassName("img-details-title")) {
